@@ -1,4 +1,4 @@
-FROM luican/todobackend-base:latest
+FROM lucianyoga01/todobackend-base:latest
 MAINTAINER Lucian Yogarajah <lucian_y@yahoo.com>
 
 # Install dev/build dependencies

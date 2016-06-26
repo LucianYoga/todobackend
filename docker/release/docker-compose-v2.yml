@@ -27,7 +27,7 @@ services:
       - "--die-on-term"
 
   test:
-    image: lucian/todobackend-specs
+    image: lucianyoga01/todobackend-specs
     links:
       - nginx
     environment:
@@ -58,7 +58,7 @@ services:
       MYSQL_ROOT_PASSWORD: password
 
   agent:
-    image: lucian/ansible
+    image: lucianyoga01/ansible
     links:
       - db
     environment:

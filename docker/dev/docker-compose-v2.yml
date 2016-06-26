@@ -33,7 +33,7 @@ services:
     command: ["pip", "wheel", "--no-index", "-f /build", "."]
 
   agent:
-    image: lucian/ansible
+    image: lucianyoga01/ansible
     links:
       - db
     environment:
